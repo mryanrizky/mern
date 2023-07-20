@@ -7,7 +7,7 @@ const CreatePost = () => {
   const history = useHistory();
   return (
     <div className="item-post">
-      <Link title="Kembali" onCLick={() => history.push("/")} />
+      <Link title="Kembali" onClick={() => history.push("/")} />
       <p className="title">Create Post Page</p>
       <Input label="Post Title" />
       <Upload />

@@ -20,7 +20,7 @@ const Register = () => {
         <Gap height={16} />
         <Input label="Password" placeholder="Password" />
         <Gap height={40} />
-        <Button title="Register" />
+        <Button title="Register" onClick={() => history.push("/")} />
         <Gap height={60} />
         <Link title="Kembali ke Login" onClick={() => history.push("/login")} />
       </div>
